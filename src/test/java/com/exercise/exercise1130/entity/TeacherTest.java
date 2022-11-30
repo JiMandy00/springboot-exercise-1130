@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class StudentTest {
+class TeacherTest {
     @Test
     void name() {
         List<Teacher> teachers = new ArrayList<>();
@@ -44,5 +44,5 @@ class StudentTest {
 
         System.out.println(likeSpringBootTeachers);
 
+
     }
-}
